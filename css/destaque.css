@@ -16,7 +16,7 @@ padding: 2.5rem 0;
 .destaque__painel {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     margin-bottom: 2rem;
 }
 
@@ -39,3 +39,5 @@ padding: 2.5rem 0;
 
     border-color: var(--vermelho-forte);
 }
+
+
