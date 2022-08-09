@@ -1,5 +1,9 @@
 .sobre {
     padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .sobre__titulo {
@@ -20,12 +24,13 @@
 .sobre__texto--destaque {
     color: var(--cinza-escuro);
     font-weight: 700;
+    
 }
 
 .sobre__plataformas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
 }
 
