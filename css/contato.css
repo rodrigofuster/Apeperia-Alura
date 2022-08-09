@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 
     text-align: center;
 
@@ -26,4 +27,18 @@
     border-color: var(--cinza-escuro);
 
     margin-top: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+ .contato__titulo {
+    font-size: 2.5rem;
+ }
+
+ .contato p {
+    font-size: 1.5rem;
+ }
+
+ .contato__botao {
+    font-size: 1.5rem;
+ }
 }

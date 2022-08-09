@@ -111,3 +111,21 @@
         max-width: 400px
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .planos {
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+    }
+    .planos__cartoes {
+        flex-direction: row;
+        justify-content: space-between;
+       width: 95%;
+    }
+
+    .cartao {
+        max-width: 300px;
+    }
+    
+}
