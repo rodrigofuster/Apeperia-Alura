@@ -1,2 +1,2 @@
-# Apperia-Alura
- Projeto desenvolvido durante o Curso de Layouts Responsivos da Alura.
+# projeto-apeperia
+Arquivos do projeto para a Apeperia

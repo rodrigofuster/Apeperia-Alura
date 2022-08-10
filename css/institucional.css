@@ -22,8 +22,7 @@
 }
 
 .institucional__descricao {
-    font-size: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .institucional__endereco {
@@ -54,50 +53,31 @@
     width: 100vw;
 }
 
-
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .institucional__contato-email {
         display: inline-block;
     }
 
     .institucional__video {
-        width: 90%;
+        width: 100%;
     }
 }
 
-
 @media screen and (min-width: 1024px) {
-.institucional {
-    width: 100%;
-}
-
     .institucional__conteudo {
         width: 100%;
+
         display: flex;
         justify-content: space-between;
-        text-align: center;
+        
+        text-align: left;
     }
 
     .institucional__video {
+        align-self: flex-end;
         
-        width: auto;
-        max-width: 600px;
-        margin-right:  5%;
+        width: 375px;
     }
-
-    .institucional__titulo {
-        margin-bottom: 1rem;
-        font-size: 2rem;
-    }
-
-    .institucional__descricao {
-        font-size: 1.5rem;
-     }
-
-     .institucional__endereco {
-        display: flex;
-        flex-direction: column;
-     }
 
     .institucional__contato-email {
         display: block;
